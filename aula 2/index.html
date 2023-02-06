@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Interesse</title>
+</head>
+<body>
+    <form action="http://google.com">
+        <section align="center">
+            <h1>Formulário de Interesse</h1>
+            <p>Digite seu nome:
+            <input type="text" name="userName" size="35" maxlength="40" placeholder="Seu nome completo"></p>
+            <p>Digite sua profissão:
+            <input type="text" name="userJob" size="35" maxlength="40" placeholder="Sua profissão"></p>
+            <p>Nos conte um pouco sobre você:
+            <textarea name="userComment" id="" cols="30" rows="4"></textarea></p>
+            <p>Você faz exercícios regularmente?
+            <input type="radio" name="exercise" value="1">Sim
+            <input type="radio" name="exercise" value="2">Não </p>
+            <p>Por onde você lê sobre seus tópicos favoritos?</p>
+            <input type="checkbox" name="Books" id="">Livros
+            <input type="checkbox" name="Web" id="">Sites
+            <input type="checkbox" name="Apps" id="">Aplicativos
+            <input type="checkbox" name="Magazines" id="">Revistas
+            <p>Qual gênero de filme você mais gosta?
+            <select name="moviePref" id="">
+                <option value=""></option>
+                <option value="1">Comédia</option>
+                <option value="2">Terror</option>
+                <option value="3">Romance</option>
+                <option value="4">Drama</option>
+                <option value="5">Ação</option> </p>
+            </select>
+            <br><br>
+            <input type="submit" value="ENVIAR">
+        </section>
+    </form>
+</body>
+</html>
